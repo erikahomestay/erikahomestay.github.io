@@ -1,0 +1,1 @@
+document.getElementById('fg').href = "data:image/png;base64, "+fav180;
