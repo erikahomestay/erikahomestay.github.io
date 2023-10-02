@@ -323,10 +323,14 @@
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; Erika Homestay 2020
+    <div id="copyrightlabel" class="container">
+      Copyright &copy; Erika Homestay
     </div>
   </footer>
+
+<script>
+ document.querySelector("#copyrightlabel").innerHTML = `\nCopyright © Erika Homestay ${new Date().getFullYear()}\n`;
+</script>
 
   <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
